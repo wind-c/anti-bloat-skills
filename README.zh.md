@@ -1,6 +1,6 @@
 # common-anti-bloat
 
-给还在长大的代码库用的**防膨胀技能** —— 给的是**能跑的命令,不是价值观**。anti-bloat / dead-code / refactoring / technical-debt
+给还在长大的代码库用的**防膨胀技能** —— 给的是**能跑的命令,不是价值观**。
 
 [English](./README.md) | 简体中文
 

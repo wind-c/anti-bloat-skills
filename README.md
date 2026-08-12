@@ -1,6 +1,6 @@
 # common-anti-bloat
 
-A bloat guard skill for codebases that are still growing — **executable detectors, not principles**. 防膨胀技能 / 反屎山 / 代码清理 / 技术债务检测
+A bloat guard skill for codebases that are still growing — **executable detectors, not principles**.
 
 English | [简体中文](./README.zh.md)
 

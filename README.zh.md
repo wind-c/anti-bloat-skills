@@ -79,14 +79,14 @@ scripts/dead-import-scan.py   执行时  A10 检测器，命中即退出码 1，
 
 直接对你用的 code agent 说：
 
-> 帮我安装 common-anti-bloat 技能，来自 https://github.com/wind-c/common-anti-bloat
+> 帮我安装 common-anti-bloat 技能，来自 https://github.com/wind-c/anti-bloat-skills
 
 或者手动安装：
 
 **Claude Code 插件**
 
 ```
-/plugin marketplace add wind-c/common-anti-bloat
+/plugin marketplace add wind-c/anti-bloat-skills
 /plugin install common-anti-bloat@common-anti-bloat
 ```
 
@@ -105,7 +105,7 @@ Copy-Item -Recurse -Force "skills\common-anti-bloat\*" "$env:USERPROFILE\.config
 如果还没 clone 仓库：
 
 ```bash
-git clone https://github.com/wind-c/common-anti-bloat.git
+git clone https://github.com/wind-c/anti-bloat-skills.git
 ```
 
 ## 校验

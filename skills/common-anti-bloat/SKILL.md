@@ -1,6 +1,6 @@
 ---
 name: common-anti-bloat
-description: Bloat guard. Use when the user worries about bloat or 屎山; before adding a package, dependency, abstraction, config section, or design doc; and when reviewing a diff for what it should have deleted.
+description: Bloat guard. Run a check, read the number, cut. Ten signals with detection commands — use before adding a package, dependency, abstraction, or config; and when reviewing a diff for what it should have deleted.
 license: MIT. LICENSE.txt has complete terms
 metadata:
   author: wind

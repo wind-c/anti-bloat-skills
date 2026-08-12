@@ -12,7 +12,7 @@
     {
       "name": "common-anti-bloat",
       "source": "./",
-      "description": "Bloat guard. Run a check, read the number, cut. Ten signals with detection commands.",
+"description": "Bloat guard with executable detectors — every pattern comes with a command you can run and a number it should return.",
       "version": "1.1.0",
       "author": {
         "name": "wind-c"

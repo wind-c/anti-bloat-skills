@@ -75,10 +75,37 @@ scripts/dead-import-scan.py   执行时  A10 检测器，命中即退出码 1，
 500 行在 Java 和 Python 里含义完全不同;npm 的微包文化让 A8 比 Maven 生态严厉得多;而在
 `cargo check` 或 `tsc --noEmit` 已经跑着的地方,A10 几乎不存在。
 
+## 安装
+
+**方式 A：通过 OpenCode（推荐）**
+
+```bash
+# PowerShell
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat"
+Copy-Item -Recurse -Force "skills\common-anti-bloat\*" "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat\"
+```
+
+```bash
+# Linux / macOS
+mkdir -p ~/.config/opencode/skills/common-anti-bloat
+cp -r skills/common-anti-bloat/* ~/.config/opencode/skills/common-anti-bloat/
+```
+
+**方式 B：手动下载**
+
+```bash
+git clone https://github.com/wind-c/common-anti-bloat.git
+# 然后将 skills/common-anti-bloat/ 复制到你的 skills 目录（同上）
+```
+
 ## 校验
 
 ```bash
 skills-ref validate common-anti-bloat     # → Valid skill (exit 0)
 ```
+
+## 许可
+
+MIT — 详见 [LICENSE.txt](skills/common-anti-bloat/LICENSE.txt)
 
 符合 [Agent Skills 规范](https://agentskills.io/specification)。

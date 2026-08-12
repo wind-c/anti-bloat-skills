@@ -84,10 +84,37 @@ A10 are wrong out of the box in some ecosystems: 500 lines means different thing
 Python, npm's micro-package culture makes A8 bite far harder than Maven's, and A10 barely
 exists where `cargo check` or `tsc --noEmit` already runs.
 
+## Install
+
+**Option A: via OpenCode (recommended)**
+
+```bash
+# PowerShell
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat"
+Copy-Item -Recurse -Force "skills\common-anti-bloat\*" "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat\"
+```
+
+```bash
+# Linux / macOS
+mkdir -p ~/.config/opencode/skills/common-anti-bloat
+cp -r skills/common-anti-bloat/* ~/.config/opencode/skills/common-anti-bloat/
+```
+
+**Option B: manual download**
+
+```bash
+git clone https://github.com/wind-c/common-anti-bloat.git
+# then copy skills/common-anti-bloat/ into your skills directory as above
+```
+
 ## Validation
 
 ```bash
 skills-ref validate common-anti-bloat     # → Valid skill (exit 0)
 ```
+
+## License
+
+MIT — see [LICENSE.txt](skills/common-anti-bloat/LICENSE.txt)
 
 Conforms to the [Agent Skills specification](https://agentskills.io/specification).

@@ -1,6 +1,6 @@
 # Anti-Bloat Guidelines
 
-Bloat guard for codebases that are still growing — executable detectors, not principles.
+Bloat guard skill for codebases that are still growing — executable detectors, not principles.
 Every signal comes with a command you can run and a number it should return.
 
 ## Calibrate first

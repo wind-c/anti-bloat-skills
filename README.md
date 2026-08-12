@@ -92,6 +92,17 @@ Tell your code agent to install this skill:
 
 Or do it by hand:
 
+**CLAUDE.md (per-project)**
+
+```bash
+# new project
+curl -o CLAUDE.md https://raw.githubusercontent.com/wind-c/anti-bloat-skills/main/CLAUDE.md
+
+# existing project (append)
+echo "" >> CLAUDE.md
+curl https://raw.githubusercontent.com/wind-c/anti-bloat-skills/main/CLAUDE.md >> CLAUDE.md
+```
+
 **Claude Code Plugin**
 
 ```

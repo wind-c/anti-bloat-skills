@@ -83,6 +83,17 @@ scripts/dead-import-scan.py   执行时  A10 检测器，命中即退出码 1，
 
 或者手动安装：
 
+**CLAUDE.md（按项目）**
+
+```bash
+# 新项目
+curl -o CLAUDE.md https://raw.githubusercontent.com/wind-c/anti-bloat-skills/main/CLAUDE.md
+
+# 已有项目（追加）
+echo "" >> CLAUDE.md
+curl https://raw.githubusercontent.com/wind-c/anti-bloat-skills/main/CLAUDE.md >> CLAUDE.md
+```
+
 **Claude Code 插件**
 
 ```

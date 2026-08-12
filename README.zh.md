@@ -83,6 +83,13 @@ scripts/dead-import-scan.py   执行时  A10 检测器，命中即退出码 1，
 
 或者手动安装：
 
+**Claude Code 插件**
+
+```
+/plugin marketplace add wind-c/common-anti-bloat
+/plugin install common-anti-bloat@common-anti-bloat
+```
+
 **OpenCode**
 
 ```bash

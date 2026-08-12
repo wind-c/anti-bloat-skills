@@ -1,0 +1,31 @@
+{
+  "name": "common-anti-bloat",
+  "id": "common-anti-bloat",
+  "owner": {
+    "name": "wind-c"
+  },
+  "metadata": {
+    "description": "Bloat guard with executable detectors — every pattern comes with a command you can run and a number it should return.",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "common-anti-bloat",
+      "source": "./",
+      "description": "Bloat guard for codebases that are still growing — ten signals, each with a detection command.",
+      "version": "1.1.0",
+      "author": {
+        "name": "wind-c"
+      },
+      "keywords": [
+        "anti-bloat",
+        "code-quality",
+        "refactoring",
+        "dead-code",
+        "bloat-detection",
+        "best-practices"
+      ],
+      "category": "workflow"
+    }
+  ]
+}

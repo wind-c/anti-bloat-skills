@@ -92,6 +92,13 @@ Tell your code agent to install this skill:
 
 Or do it by hand:
 
+**Claude Code Plugin**
+
+```
+/plugin marketplace add wind-c/common-anti-bloat
+/plugin install common-anti-bloat@common-anti-bloat
+```
+
 **OpenCode**
 
 ```bash

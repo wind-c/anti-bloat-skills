@@ -1,0 +1,11 @@
+{
+  "name": "common-anti-bloat",
+  "description": "Bloat guard. Use when the user worries about bloat or 屎山; before adding a package, dependency, abstraction, config section, or design doc; and when reviewing a diff for what it should have deleted.",
+  "version": "1.1.0",
+  "author": {
+    "name": "wind-c"
+  },
+  "license": "MIT",
+  "keywords": ["anti-bloat", "code-quality", "refactoring", "dead-code", "bloat-detection", "best-practices", "skill"],
+  "skills": ["./skills/common-anti-bloat"]
+}

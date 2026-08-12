@@ -1,6 +1,6 @@
 # common-anti-bloat
 
-A bloat guard skill for codebases that are still growing — **executable detectors, not principles**. Anti-bloat · dead-code detection · technical debt · dependency audit · AI coding assistant
+A bloat guard skill for codebases that are still growing — **executable detectors, not principles**. Anti-bloat · dead-code detection · technical debt · dependency audit
 
 English | [简体中文](./README.zh.md)
 

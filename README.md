@@ -2,7 +2,7 @@
 
 A bloat guard skill for codebases that are still growing — **executable detectors, not principles**.
 
-[中文](README.zh.md) · MIT · by [wind](https://github.com/wind-c)
+English | [简体中文](./README.zh.md)
 
 ---
 

@@ -2,7 +2,7 @@
 
 给还在长大的代码库用的**防膨胀技能** —— 给的是**能跑的命令,不是价值观**。
 
-[English](README.md) · MIT · 作者 [wind](https://github.com/wind-c)
+[English](./README.md) | 简体中文
 
 ---
 

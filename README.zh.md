@@ -94,6 +94,14 @@ echo "" >> CLAUDE.md
 curl https://raw.githubusercontent.com/wind-c/anti-bloat-skills/main/CLAUDE.md >> CLAUDE.md
 ```
 
+**Cursor 规则（按项目）**
+
+```bash
+# 将规则文件复制到你的项目中
+mkdir -p .cursor/rules
+curl -o .cursor/rules/anti-bloat.mdc https://raw.githubusercontent.com/wind-c/anti-bloat-skills/main/.cursor/rules/anti-bloat.mdc
+```
+
 **Claude Code 插件**
 
 ```

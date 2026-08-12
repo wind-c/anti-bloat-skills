@@ -103,6 +103,14 @@ echo "" >> CLAUDE.md
 curl https://raw.githubusercontent.com/wind-c/anti-bloat-skills/main/CLAUDE.md >> CLAUDE.md
 ```
 
+**Cursor rules (per-project)**
+
+```bash
+# copy the rule file into your project
+mkdir -p .cursor/rules
+curl -o .cursor/rules/anti-bloat.mdc https://raw.githubusercontent.com/wind-c/anti-bloat-skills/main/.cursor/rules/anti-bloat.mdc
+```
+
 **Claude Code Plugin**
 
 ```

@@ -120,6 +120,14 @@ curl -o .cursor/rules/anti-bloat.mdc https://raw.githubusercontent.com/wind-c/an
 
 **OpenCode**
 
+First clone the repo:
+
+```bash
+git clone https://github.com/wind-c/anti-bloat-skills.git
+```
+
+Then copy the skill:
+
 ```bash
 # Linux / macOS
 mkdir -p ~/.config/opencode/skills/common-anti-bloat
@@ -128,12 +136,6 @@ cp -r skills/common-anti-bloat/* ~/.config/opencode/skills/common-anti-bloat/
 # Windows PowerShell
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat"
 Copy-Item -Recurse -Force "skills\common-anti-bloat\*" "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat\"
-```
-
-First clone the repo if you haven't:
-
-```bash
-git clone https://github.com/wind-c/anti-bloat-skills.git
 ```
 
 ## Validation

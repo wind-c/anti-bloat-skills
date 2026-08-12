@@ -86,25 +86,28 @@ exists where `cargo check` or `tsc --noEmit` already runs.
 
 ## Install
 
-**Option A: via OpenCode (recommended)**
+Tell your code agent to install this skill:
 
-```bash
-# PowerShell
-New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat"
-Copy-Item -Recurse -Force "skills\common-anti-bloat\*" "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat\"
-```
+> Install the common-anti-bloat skill from https://github.com/wind-c/common-anti-bloat
+
+Or do it by hand:
+
+**OpenCode**
 
 ```bash
 # Linux / macOS
 mkdir -p ~/.config/opencode/skills/common-anti-bloat
 cp -r skills/common-anti-bloat/* ~/.config/opencode/skills/common-anti-bloat/
+
+# Windows PowerShell
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat"
+Copy-Item -Recurse -Force "skills\common-anti-bloat\*" "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat\"
 ```
 
-**Option B: manual download**
+First clone the repo if you haven't:
 
 ```bash
 git clone https://github.com/wind-c/common-anti-bloat.git
-# then copy skills/common-anti-bloat/ into your skills directory as above
 ```
 
 ## Validation

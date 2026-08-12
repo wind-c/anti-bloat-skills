@@ -77,25 +77,28 @@ scripts/dead-import-scan.py   执行时  A10 检测器，命中即退出码 1，
 
 ## 安装
 
-**方式 A：通过 OpenCode（推荐）**
+直接对你用的 code agent 说：
 
-```bash
-# PowerShell
-New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat"
-Copy-Item -Recurse -Force "skills\common-anti-bloat\*" "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat\"
-```
+> 帮我安装 common-anti-bloat 技能，来自 https://github.com/wind-c/common-anti-bloat
+
+或者手动安装：
+
+**OpenCode**
 
 ```bash
 # Linux / macOS
 mkdir -p ~/.config/opencode/skills/common-anti-bloat
 cp -r skills/common-anti-bloat/* ~/.config/opencode/skills/common-anti-bloat/
+
+# Windows PowerShell
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat"
+Copy-Item -Recurse -Force "skills\common-anti-bloat\*" "$env:USERPROFILE\.config\opencode\skills\common-anti-bloat\"
 ```
 
-**方式 B：手动下载**
+如果还没 clone 仓库：
 
 ```bash
 git clone https://github.com/wind-c/common-anti-bloat.git
-# 然后将 skills/common-anti-bloat/ 复制到你的 skills 目录（同上）
 ```
 
 ## 校验

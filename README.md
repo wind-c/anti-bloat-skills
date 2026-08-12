@@ -118,7 +118,7 @@ curl -o .cursor/rules/anti-bloat.mdc https://raw.githubusercontent.com/wind-c/an
 /plugin install common-anti-bloat@common-anti-bloat
 ```
 
-**OpenCode**
+**OpenCode (other code agents can reference this)**
 
 First clone the repo:
 
